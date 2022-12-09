@@ -17,6 +17,7 @@ function quickSort(array) {
             } else {
                 equal.push(e);
             }
+            
         }
     }
     return [...quickSort(lesser), ...equal, ...quickSort(greater)];
